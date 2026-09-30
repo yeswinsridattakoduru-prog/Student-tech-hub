@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Tech Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Student Tech Hub</h1>
+        <p>Your gateway to the latest technical events and workshops.</p>
+    </header>
+
+    <main>
+        <section id="events-section">
+            <h2>Upcoming Technical Events</h2>
+            <button id="load-events-btn">Load Events</button>
+            <div id="events-list">
+                <!-- Events will be populated here -->
+            </div>
+        </section>
+
+        <section id="registration-section">
+            <h2>Register for Updates</h2>
+            <form id="registration-form">
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <button type="submit">Register</button>
+            </form>
+            <p id="registration-message"></p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
